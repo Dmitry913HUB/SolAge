@@ -2,8 +2,8 @@ $(document).ready(function () {
     $('.slider').slick({
         arrows: true,
         dots: true,
-        slidesToShow: 3,
-        autoplay: true,
+        slidesToShow: 5,
+        autoplay: false,
         speed: 2000,
         autoplaySpeed: 500,
         responsive: [

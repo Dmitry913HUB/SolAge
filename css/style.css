@@ -290,7 +290,7 @@ header {
 /* ------ RARITY ------- */
 
 .slider_block{
-    width: 100%;
+    width: 100% !important;
 }
 
 .slider__text{
@@ -357,12 +357,12 @@ header {
 
 .slider .slick-arrow {
     position: absolute;
-    top: 0%;
+    top: 40%;
     margin: 0px 0px 0px 0px;
     z-index: 10;
-    font-size: 0;
-    width: 0px;
-    height: 0px;
+    font-size: 0px;
+    width: 50px;
+    height: 50px;
 }
 
 .slider .slick-arrow.slick-prev {
@@ -412,47 +412,47 @@ ul {
 }
 
 .slider__item {
-    /*width: 33%;*/
+    width: 33%;
     padding: 0px 0px;
 }
 
 .slick-list {
-    width: 400px;
+    width: 1500px;
 }
 
 .slider {
     height: 181px;
 }
 
-@media (max-width: 540px) {
-    .slick-list {
-        width: 356px;
-    }
+/*@media (max-width: 540px) {*/
+/*    .slick-list {*/
+/*        width: 356px;*/
+/*    }*/
 
-    .slider {
-        height: 161px;
-    }
-}
+/*    .slider {*/
+/*        height: 161px;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 400px) {
-    .slick-list {
-        width: 332px;
-    }
+/*@media (max-width: 400px) {*/
+/*    .slick-list {*/
+/*        width: 332px;*/
+/*    }*/
 
-    .slider {
-        height: 151px;
-    }
-}
+/*    .slider {*/
+/*        height: 151px;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 360px) {
-    .slick-list {
-        width: 280px;
-    }
+/*@media (max-width: 360px) {*/
+/*    .slick-list {*/
+/*        width: 280px;*/
+/*    }*/
 
-    .slider {
-        height: 130px;
-    }
-}
+/*    .slider {*/
+/*        height: 130px;*/
+/*    }*/
+/*}*/
 
 /* ------------------ */
 
